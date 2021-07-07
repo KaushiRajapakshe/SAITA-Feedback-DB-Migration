@@ -1,0 +1,335 @@
+2021-07-08 00:02:31,468 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SaitaApplication on Kaushalyas-MacBook-Pro.local with PID 1500 (/Users/Kaushi/C/Projects/ADMIN Mongo/target/classes started by kaushalyarajapakshe in /Users/Kaushi/C/Projects/ADMIN Mongo)
+2021-07-08 00:02:31,473 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.6.BUILD-SNAPSHOT, Spring v5.2.11.RELEASE
+2021-07-08 00:02:31,473 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-07-08 00:02:31,509 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 00:02:31,510 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 00:02:32,166 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-08 00:02:32,243 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 69ms. Found 1 MongoDB repository interfaces.
+2021-07-08 00:02:33,048 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2021-07-08 00:02:33,056 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 00:02:33,057 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-07-08 00:02:33,057 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-08 00:02:33,127 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-07-08 00:02:33,128 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1618 ms
+2021-07-08 00:02:33,306 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-08 00:02:33,383 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e5f3413f19593cda2d23dd', description='null'}-localhost:27017] Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:669)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:645)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2021-07-08 00:02:33,722 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-07-08 00:02:34,205 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-08 00:02:34,511 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2021-07-08 00:02:34,547 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 00:02:35,076 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2021-07-08 00:02:35,086 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SaitaApplication in 3.881 seconds (JVM running for 9.581)
+2021-07-08 00:04:26,520 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-07-08 00:04:26,520 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-08 00:04:35,177 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SaitaApplication on Kaushalyas-MacBook-Pro.local with PID 1669 (/Users/Kaushi/C/Projects/ADMIN Mongo/target/classes started by kaushalyarajapakshe in /Users/Kaushi/C/Projects/ADMIN Mongo)
+2021-07-08 00:04:35,179 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.6.BUILD-SNAPSHOT, Spring v5.2.11.RELEASE
+2021-07-08 00:04:35,179 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-07-08 00:04:35,211 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 00:04:35,211 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 00:04:35,749 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-08 00:04:35,813 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 57ms. Found 1 MongoDB repository interfaces.
+2021-07-08 00:04:36,407 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2021-07-08 00:04:36,417 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 00:04:36,418 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-07-08 00:04:36,418 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-08 00:04:36,481 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-07-08 00:04:36,481 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1270 ms
+2021-07-08 00:04:36,613 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-08 00:04:36,682 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e5f3bc0c8bad011f511703', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2021-07-08 00:04:36,689 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e5f3bc0c8bad011f511703', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4330934}
+2021-07-08 00:04:36,809 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-07-08 00:04:37,217 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-08 00:04:37,441 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2021-07-08 00:04:37,473 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 00:04:37,866 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2021-07-08 00:04:37,878 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SaitaApplication in 2.925 seconds (JVM running for 8.609)
+2021-07-08 00:04:48,382 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-8443-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-08 00:04:48,383 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-07-08 00:04:48,399 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Completed initialization in 16 ms
+2021-07-08 00:04:48,462 INFO com.mongodb.diagnostics.logging.SLF4JLogger [https-jsse-nio-8443-exec-9] Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2021-07-08 00:06:27,033 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-10] Insert issue com.admin.saita.model.Feedback@1e2bdb30
+2021-07-08 00:15:43,175 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-4] Get issue [com.admin.saita.model.Feedback@4a106fc2]
+2021-07-08 00:24:08,450 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-07-08 00:24:08,451 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-08 00:24:08,458 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+2021-07-08 00:24:18,253 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SaitaApplication on Kaushalyas-MacBook-Pro.local with PID 1878 (/Users/Kaushi/C/Projects/ADMIN Mongo/target/classes started by kaushalyarajapakshe in /Users/Kaushi/C/Projects/ADMIN Mongo)
+2021-07-08 00:24:18,255 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.6.BUILD-SNAPSHOT, Spring v5.2.11.RELEASE
+2021-07-08 00:24:18,256 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-07-08 00:24:18,289 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 00:24:18,290 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 00:24:18,843 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-08 00:24:18,903 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 55ms. Found 1 MongoDB repository interfaces.
+2021-07-08 00:24:19,531 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2021-07-08 00:24:19,538 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 00:24:19,539 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-07-08 00:24:19,539 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-08 00:24:19,612 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-07-08 00:24:19,613 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1323 ms
+2021-07-08 00:24:19,761 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-08 00:24:19,798 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e5f85be35e496805f34d01', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:3}] to localhost:27017
+2021-07-08 00:24:19,807 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e5f85be35e496805f34d01', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2116196}
+2021-07-08 00:24:19,920 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-07-08 00:24:20,304 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-08 00:24:20,527 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2021-07-08 00:24:20,555 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 00:24:20,942 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2021-07-08 00:24:20,952 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SaitaApplication in 2.938 seconds (JVM running for 8.716)
+2021-07-08 00:24:27,615 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-8443-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-08 00:24:27,615 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-07-08 00:24:27,628 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Completed initialization in 13 ms
+2021-07-08 00:24:27,693 INFO com.mongodb.diagnostics.logging.SLF4JLogger [https-jsse-nio-8443-exec-10] Opened connection [connectionId{localValue:2, serverValue:4}] to localhost:27017
+2021-07-08 00:24:27,708 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-10] Delete issue id 0
+2021-07-08 00:25:10,414 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-1] Insert issue com.admin.saita.model.Feedback@2579515a
+2021-07-08 00:27:23,421 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-1] Get issue [com.admin.saita.model.Feedback@191e74e4]
+2021-07-08 00:27:53,200 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-07-08 00:27:53,201 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-08 00:27:53,205 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:4}] to localhost:27017 because the pool has been closed.
+2021-07-08 00:28:06,915 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SaitaApplication on Kaushalyas-MacBook-Pro.local with PID 1903 (/Users/Kaushi/C/Projects/ADMIN Mongo/target/classes started by kaushalyarajapakshe in /Users/Kaushi/C/Projects/ADMIN Mongo)
+2021-07-08 00:28:06,916 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.6.BUILD-SNAPSHOT, Spring v5.2.11.RELEASE
+2021-07-08 00:28:06,917 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-07-08 00:28:06,948 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 00:28:06,948 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 00:28:07,497 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-08 00:28:07,535 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34ms. Found 1 MongoDB repository interfaces.
+2021-07-08 00:28:08,007 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2021-07-08 00:28:08,015 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 00:28:08,015 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-07-08 00:28:08,016 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-08 00:28:08,076 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-07-08 00:28:08,077 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1128 ms
+2021-07-08 00:28:08,454 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-08 00:28:08,540 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e5f9401f6c24627b74e53a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:5}] to localhost:27017
+2021-07-08 00:28:08,550 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e5f9401f6c24627b74e53a', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6368581}
+2021-07-08 00:28:08,798 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-07-08 00:28:09,315 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-08 00:28:09,613 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2021-07-08 00:28:09,645 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 00:28:10,105 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2021-07-08 00:28:10,115 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SaitaApplication in 3.434 seconds (JVM running for 9.73)
+2021-07-08 00:28:32,845 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-8443-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-08 00:28:32,845 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-07-08 00:28:32,861 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Completed initialization in 16 ms
+2021-07-08 00:32:03,366 INFO com.mongodb.diagnostics.logging.SLF4JLogger [https-jsse-nio-8443-exec-9] Opened connection [connectionId{localValue:2, serverValue:6}] to localhost:27017
+2021-07-08 00:32:03,538 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-07-08 00:32:03,538 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-08 00:32:03,542 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:6}] to localhost:27017 because the pool has been closed.
+2021-07-08 00:58:29,483 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SaitaApplication on Kaushalyas-MacBook-Pro.local with PID 2073 (/Users/Kaushi/C/Projects/ADMIN Mongo/target/classes started by kaushalyarajapakshe in /Users/Kaushi/C/Projects/ADMIN Mongo)
+2021-07-08 00:58:29,485 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.6.BUILD-SNAPSHOT, Spring v5.2.11.RELEASE
+2021-07-08 00:58:29,485 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-07-08 00:58:29,523 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 00:58:29,523 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 00:58:30,158 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-08 00:58:30,203 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41ms. Found 1 MongoDB repository interfaces.
+2021-07-08 00:58:30,662 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2021-07-08 00:58:30,674 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 00:58:30,674 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-07-08 00:58:30,674 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-08 00:58:30,765 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-07-08 00:58:30,766 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1241 ms
+2021-07-08 00:58:31,011 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-08 00:58:31,050 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e6005fffe6de402c495cb4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017
+2021-07-08 00:58:31,053 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e6005fffe6de402c495cb4', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1860037}
+2021-07-08 00:58:31,169 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-07-08 00:58:31,576 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-08 00:58:31,792 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2021-07-08 00:58:31,818 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 00:58:32,201 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2021-07-08 00:58:32,209 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SaitaApplication in 2.991 seconds (JVM running for 8.604)
+2021-07-08 00:58:34,185 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-8443-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-08 00:58:34,185 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-07-08 00:58:34,210 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Completed initialization in 25 ms
+2021-07-08 00:58:34,262 INFO com.mongodb.diagnostics.logging.SLF4JLogger [https-jsse-nio-8443-exec-9] Opened connection [connectionId{localValue:2, serverValue:8}] to localhost:27017
+2021-07-08 00:58:34,313 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-9] Get issue [com.admin.saita.model.Feedback@637d1dfe]
+2021-07-08 00:58:42,918 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-1] Delete issue id 0
+2021-07-08 00:59:15,293 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-3] Insert issue com.admin.saita.model.Feedback@1047c968
+2021-07-08 01:01:12,912 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-07-08 01:01:12,913 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-08 01:01:12,917 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:8}] to localhost:27017 because the pool has been closed.
+2021-07-08 01:01:26,923 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SaitaApplication on Kaushalyas-MacBook-Pro.local with PID 2106 (/Users/Kaushi/C/Projects/ADMIN Mongo/target/classes started by kaushalyarajapakshe in /Users/Kaushi/C/Projects/ADMIN Mongo)
+2021-07-08 01:01:26,925 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.6.BUILD-SNAPSHOT, Spring v5.2.11.RELEASE
+2021-07-08 01:01:26,926 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-07-08 01:01:26,958 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 01:01:26,958 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 01:01:27,506 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-08 01:01:27,544 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34ms. Found 1 MongoDB repository interfaces.
+2021-07-08 01:01:27,969 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2021-07-08 01:01:27,977 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:01:27,978 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-07-08 01:01:27,978 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-08 01:01:28,041 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-07-08 01:01:28,042 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1083 ms
+2021-07-08 01:01:28,236 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-08 01:01:28,280 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e6011010942709d698e9ec', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:9}] to localhost:27017
+2021-07-08 01:01:28,284 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e6011010942709d698e9ec', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2601244}
+2021-07-08 01:01:28,399 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-07-08 01:01:28,880 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-08 01:01:29,147 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2021-07-08 01:01:29,178 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:01:29,584 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2021-07-08 01:01:29,595 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SaitaApplication in 2.902 seconds (JVM running for 8.57)
+2021-07-08 01:02:02,355 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-8443-exec-10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-08 01:02:02,356 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-10] Initializing Servlet 'dispatcherServlet'
+2021-07-08 01:02:02,373 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-10] Completed initialization in 17 ms
+2021-07-08 01:02:35,584 INFO com.mongodb.diagnostics.logging.SLF4JLogger [https-jsse-nio-8443-exec-10] Opened connection [connectionId{localValue:2, serverValue:10}] to localhost:27017
+2021-07-08 01:05:14,174 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-07-08 01:05:14,174 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-08 01:05:14,177 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:10}] to localhost:27017 because the pool has been closed.
+2021-07-08 01:05:28,918 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SaitaApplication on Kaushalyas-MacBook-Pro.local with PID 2124 (/Users/Kaushi/C/Projects/ADMIN Mongo/target/classes started by kaushalyarajapakshe in /Users/Kaushi/C/Projects/ADMIN Mongo)
+2021-07-08 01:05:28,919 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.6.BUILD-SNAPSHOT, Spring v5.2.11.RELEASE
+2021-07-08 01:05:28,920 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-07-08 01:05:28,954 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 01:05:28,954 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 01:05:29,482 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-08 01:05:29,522 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 36ms. Found 1 MongoDB repository interfaces.
+2021-07-08 01:05:29,954 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2021-07-08 01:05:29,962 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:05:29,963 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-07-08 01:05:29,963 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-08 01:05:30,030 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-07-08 01:05:30,030 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1075 ms
+2021-07-08 01:05:30,190 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-08 01:05:30,231 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e60202fd46682cbc2391d3', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:11}] to localhost:27017
+2021-07-08 01:05:30,234 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e60202fd46682cbc2391d3', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2453704}
+2021-07-08 01:05:30,377 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-07-08 01:05:30,859 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-08 01:05:31,127 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2021-07-08 01:05:31,160 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:05:31,569 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2021-07-08 01:05:31,579 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SaitaApplication in 2.88 seconds (JVM running for 8.867)
+2021-07-08 01:06:26,639 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-8443-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-08 01:06:26,640 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-07-08 01:06:26,666 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Completed initialization in 25 ms
+2021-07-08 01:06:26,727 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [https-jsse-nio-8443-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2021-07-08 01:06:29,661 INFO com.mongodb.diagnostics.logging.SLF4JLogger [https-jsse-nio-8443-exec-9] Opened connection [connectionId{localValue:2, serverValue:12}] to localhost:27017
+2021-07-08 01:06:29,744 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-9] Get issue [com.admin.saita.model.Feedback@671de92f]
+2021-07-08 01:06:45,731 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-10] Delete issue id 0
+2021-07-08 01:07:26,619 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-1] Insert issue com.admin.saita.model.Feedback@95e098d
+2021-07-08 01:07:58,874 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-2] Insert issue com.admin.saita.model.Feedback@1284631
+2021-07-08 01:08:25,346 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-3] Get issue [com.admin.saita.model.Feedback@71c5aed4, com.admin.saita.model.Feedback@1ae3f57d]
+2021-07-08 01:08:37,503 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-6] Get issue by id 7 com.admin.saita.model.Feedback@5637600d
+2021-07-08 01:08:44,577 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-8] Delete issue id 9
+2021-07-08 01:09:52,599 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-07-08 01:09:52,600 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-08 01:09:52,604 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:12}] to localhost:27017 because the pool has been closed.
+2021-07-08 01:10:04,693 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SaitaApplication on Kaushalyas-MacBook-Pro.local with PID 2157 (/Users/Kaushi/C/Projects/ADMIN Mongo/target/classes started by kaushalyarajapakshe in /Users/Kaushi/C/Projects/ADMIN Mongo)
+2021-07-08 01:10:04,695 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.6.BUILD-SNAPSHOT, Spring v5.2.11.RELEASE
+2021-07-08 01:10:04,696 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-07-08 01:10:04,728 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 01:10:04,728 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 01:10:05,301 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-08 01:10:05,363 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 57ms. Found 1 MongoDB repository interfaces.
+2021-07-08 01:10:05,942 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2021-07-08 01:10:05,952 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:10:05,952 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-07-08 01:10:05,953 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-08 01:10:06,013 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-07-08 01:10:06,014 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1285 ms
+2021-07-08 01:10:06,150 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-08 01:10:06,188 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e6031610188478bf72003a', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:13}] to localhost:27017
+2021-07-08 01:10:06,191 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e6031610188478bf72003a', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2109905}
+2021-07-08 01:10:06,327 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-07-08 01:10:06,845 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-08 01:10:07,106 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2021-07-08 01:10:07,140 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:10:07,627 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2021-07-08 01:10:07,638 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SaitaApplication in 3.165 seconds (JVM running for 8.863)
+2021-07-08 01:11:48,602 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-8443-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-08 01:11:48,603 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-07-08 01:11:48,621 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Completed initialization in 18 ms
+2021-07-08 01:11:48,698 INFO com.mongodb.diagnostics.logging.SLF4JLogger [https-jsse-nio-8443-exec-10] Opened connection [connectionId{localValue:2, serverValue:14}] to localhost:27017
+2021-07-08 01:11:48,709 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-10] Delete issue id 7
+2021-07-08 01:12:43,858 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-1] Insert issue com.admin.saita.model.Feedback@6a238194
+2021-07-08 01:13:18,605 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-2] Insert issue com.admin.saita.model.Feedback@243bc883
+2021-07-08 01:25:46,817 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SaitaApplication on Kaushalyas-MacBook-Pro.local with PID 3231 (/Users/Kaushi/C/SAITA/Spring Backend. + MongoDB/ADMIN Mongo/target/classes started by kaushalyarajapakshe in /Users/Kaushi/C/SAITA/Spring Backend. + MongoDB/ADMIN Mongo)
+2021-07-08 01:25:46,819 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.6.BUILD-SNAPSHOT, Spring v5.2.11.RELEASE
+2021-07-08 01:25:46,819 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-07-08 01:25:46,854 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 01:25:46,855 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 01:25:47,345 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-08 01:25:47,381 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 33ms. Found 1 MongoDB repository interfaces.
+2021-07-08 01:25:47,814 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2021-07-08 01:25:47,820 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:25:47,838 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-07-08 01:25:47,839 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-08 01:25:47,897 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-07-08 01:25:47,897 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1042 ms
+2021-07-08 01:25:48,020 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-08 01:25:48,055 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e606c4f8eabd5d518dc501', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:15}] to localhost:27017
+2021-07-08 01:25:48,058 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e606c4f8eabd5d518dc501', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1833177}
+2021-07-08 01:25:48,176 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-07-08 01:25:48,625 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-08 01:25:48,904 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2021-07-08 01:25:48,942 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:25:49,514 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2021-07-08 01:25:49,525 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SaitaApplication in 2.906 seconds (JVM running for 8.664)
+2021-07-08 01:32:41,689 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-07-08 01:32:41,690 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-08 01:32:52,742 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SaitaApplication on Kaushalyas-MacBook-Pro.local with PID 4314 (/Users/Kaushi/C/SAITA/Spring Backend. + MongoDB/ADMIN Mongo/target/classes started by kaushalyarajapakshe in /Users/Kaushi/C/SAITA/Spring Backend. + MongoDB/ADMIN Mongo)
+2021-07-08 01:32:52,744 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.6.BUILD-SNAPSHOT, Spring v5.2.11.RELEASE
+2021-07-08 01:32:52,745 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-07-08 01:32:52,782 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 01:32:52,782 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 01:32:53,349 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-08 01:32:53,402 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 45ms. Found 1 MongoDB repository interfaces.
+2021-07-08 01:32:53,833 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2021-07-08 01:32:53,839 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:32:53,840 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-07-08 01:32:53,840 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-08 01:32:53,916 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-07-08 01:32:53,916 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1133 ms
+2021-07-08 01:32:54,088 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-08 01:32:54,143 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e6086e2b5a5b775636fdde', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:35}] to localhost:27017
+2021-07-08 01:32:54,153 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e6086e2b5a5b775636fdde', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8950215}
+2021-07-08 01:32:54,286 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-07-08 01:32:54,821 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-08 01:32:55,142 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2021-07-08 01:32:55,178 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:32:55,636 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2021-07-08 01:32:55,646 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SaitaApplication in 3.139 seconds (JVM running for 8.799)
+2021-07-08 01:33:30,190 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2021-07-08 01:33:30,194 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-08 01:33:43,342 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SaitaApplication on Kaushalyas-MacBook-Pro.local with PID 4494 (/Users/Kaushi/C/SAITA/Spring Backend. + MongoDB/ADMIN Mongo/target/classes started by kaushalyarajapakshe in /Users/Kaushi/C/SAITA/Spring Backend. + MongoDB/ADMIN Mongo)
+2021-07-08 01:33:43,344 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.3.6.BUILD-SNAPSHOT, Spring v5.2.11.RELEASE
+2021-07-08 01:33:43,345 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-07-08 01:33:43,385 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-08 01:33:43,385 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-08 01:33:43,975 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-07-08 01:33:44,018 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 39ms. Found 1 MongoDB repository interfaces.
+2021-07-08 01:33:44,469 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2021-07-08 01:33:44,475 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:33:44,476 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-07-08 01:33:44,476 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-07-08 01:33:44,543 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-07-08 01:33:44,544 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1158 ms
+2021-07-08 01:33:44,750 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-07-08 01:33:44,822 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e608a055b9f11ad89a218d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:36}] to localhost:27017
+2021-07-08 01:33:44,831 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='60e608a055b9f11ad89a218d', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5982757}
+2021-07-08 01:33:45,033 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-07-08 01:33:45,720 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-08 01:33:46,142 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2021-07-08 01:33:46,189 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["https-jsse-nio-8443"]
+2021-07-08 01:33:46,766 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2021-07-08 01:33:46,779 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SaitaApplication in 3.67 seconds (JVM running for 9.547)
+2021-07-08 01:35:03,972 INFO org.apache.juli.logging.DirectJDKLog [https-jsse-nio-8443-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-08 01:35:03,972 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Initializing Servlet 'dispatcherServlet'
+2021-07-08 01:35:03,990 INFO org.springframework.web.servlet.FrameworkServlet [https-jsse-nio-8443-exec-9] Completed initialization in 18 ms
+2021-07-08 01:36:03,939 INFO com.mongodb.diagnostics.logging.SLF4JLogger [https-jsse-nio-8443-exec-9] Opened connection [connectionId{localValue:2, serverValue:37}] to localhost:27017
+2021-07-08 01:36:04,016 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-9] Get issue [com.admin.saita.model.Feedback@5a44e7e0, com.admin.saita.model.Feedback@6b71cf36]
+2021-07-08 01:58:11,932 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-9] Get issue [com.admin.saita.model.Feedback@520b7d75, com.admin.saita.model.Feedback@71d764cd]
+2021-07-08 01:59:30,857 INFO com.admin.saita.controller.IssueController [https-jsse-nio-8443-exec-9] Get issue [com.admin.saita.model.Feedback@52dbe7d8, com.admin.saita.model.Feedback@5e1c1587]
